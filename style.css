@@ -1,0 +1,63 @@
+<!-- The line below declares the document type -->
+<!DOCTYPE html>
+
+<!-- The <html></html> tags open and close the html file -->
+<html>
+
+<!-- The head is the brains of the html -->
+  <head>
+    <meta charset="utf-8">
+    <title>Cameron Charles </title>
+    <link rel="stylesheet" href="StyleFile.css">
+    <style>
+    body {
+      background-color: lightblue;
+    }
+    </style>
+  </head>
+
+  <!-- The body is the beauty of the html -->
+  <body>
+    <!-- Heading -->
+    <h1 align=center style="background-color:rgb(255, 102, 102)">
+Cameron Charles
+</h1>
+<style>
+body {
+  background-image: url("https://blog.etsy.com/en/files/2013/04/stars-nebula-space-etsy.jpg");
+
+}
+</style>
+
+
+    <!-- Paragraph -->
+    <style> p {
+      border-top-style: dotted;
+      border-right-style: solid;
+      border-bottom-style: dotted;
+      border-left-style: solid;
+    }
+    </style>
+    <i align=center > Welcome</i>
+<h4
+<p style= "font-family:astoria"> Different Projects </p>
+  </h4>
+    <!-- Lists -->
+    <table background = "/images/pattern1.gif" width = "100%" height = "100">
+             <tr>
+                <td>
+                   <ul>
+                     <li> Crossy Road Scratch Project</li>
+                     <li> Mortal Kombat Text Adventure</li>
+                </td>
+             </tr>
+          </table>
+
+    <!-- scratch game -->
+              <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/168852337/?autostart=false" frameborder="0" allowfullscreen></iframe>
+    <!-- Video -->
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Sguy7_emLjY" frameborder="0" allowfullscreen></iframe>
+<!-- Link -->
+<a href= "https://www.flightclub.com/">Go to FlightClub</a>
+ </body>
+</html>

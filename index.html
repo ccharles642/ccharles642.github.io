@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    text-align: center;
+}
+
+.flex-container > * {
+    padding: 15px;
+    -webkit-flex: 1 100%;
+    flex: 1 100%;
+}
+
+.article {
+    text-align: left;
+}
+
+header {background: black;color:white;}
+footer {background: #aaa;color:white;}
+.nav {background:#eee;}
+
+.nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+.nav ul a {
+    text-decoration: none;
+}
+
+@media all and (min-width: 768px) {
+    .nav {text-align:left;-webkit-flex: 1 auto;flex:1 auto;-webkit-order:1;order:1;}
+    .article {-webkit-flex:5 0px;flex:5 0px;-webkit-order:2;order:2;}
+    footer {-webkit-order:3;order:3;}
+}
+</style>
+</head>
+<body>
+
+<div class="flex-container">
+<header>
+<style>
+body {
+  background-image: url("https://blog.etsy.com/en/files/2013/04/stars-nebula-space-etsy.jpg");
+
+}
+</style>
+  <h1>Cameron Charles</h1>
+</header>
+
+<nav class="nav">
+<ul>
+  <li><a href="#">Welcome</a></li>
+  <li><a href="#">To My</a></li>
+  <li><a href="#">Page</a></li>
+</ul>
+</nav>
+
+<article class="article">
+  <h1>Different projects</h1>
+  <!-- scratch game -->
+            <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/168852337/?autostart=false" frameborder="0" allowfullscreen></iframe>
+  <p>This is a game me and my team made on Scratch.</p>
+  <p><strong>Resize this page to see that what happens!</strong></p>
+</article>
+
+<footer>Good Bye</footer>
+</div>
+
+</body>
+</html>
